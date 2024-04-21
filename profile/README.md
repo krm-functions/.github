@@ -19,3 +19,11 @@ Functions:
 | [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md) | A re-implementation and improvement of the [baseline `apply-setters`](https://catalog.kpt.dev/apply-setters/v0.2/) function, which supports merge of multiple sources of apply-setters configuration and accepts configuration through both function-config and primary resource list. Also supports reading setter values from other resources. |
 | [gatekeeper](https://github.com/krm-functions/gatekeeper) | A re-implementation of the [baseline `gatekeeper`](https://catalog.kpt.dev/gatekeeper/v0.2/) function, which suppors newer variants of the Rego language (e.g. as used in the [gatekeeper-library](https://github.com/open-policy-agent/gatekeeper-library)) and which support gatekeeper [expansions](https://open-policy-agent.github.io/gatekeeper/website/docs/expansion) |
 | [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md) | A function that can lookup container image digests for Helm charts and write-back digests into chart values. |
+
+## Links
+
+The following are references to other KRM functions. These fnctions
+are not associated with this `krm-functions` organization.
+
+- [kispaljr/krm-functions](https://github.com/kispaljr/krm-functions)
+- [Nephio project](https://github.com/nephio-project/nephio/tree/main/krm-functions)
