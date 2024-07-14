@@ -13,16 +13,17 @@ Functions:
 
 | Name | Description |
 | ---- | ----------- |
+| [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md) | A re-implementation and improvement of the [baseline `apply-setters`](https://catalog.kpt.dev/apply-setters/v0.2/) function, which supports merge of multiple sources of apply-setters configuration and accepts configuration through both function-config and primary resource list. Also supports reading setter values from other resources. |
+| [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md) | A function that can lookup container image digests for Helm charts and write-back digests into chart values. |
+| [gatekeeper](https://github.com/krm-functions/gatekeeper) | A re-implementation of the [baseline `gatekeeper`](https://catalog.kpt.dev/gatekeeper/v0.2/) function, which suppors newer variants of the Rego language (e.g. as used in the [gatekeeper-library](https://github.com/open-policy-agent/gatekeeper-library)) and which support gatekeeper [expansions](https://open-policy-agent.github.io/gatekeeper/website/docs/expansion) |
 | [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md) | Function for automating upgrades of Helm chart specifications in e.g. KRM `RenderHelmChart` format. Supports upgrade constraints. |
+| [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md) | Function for validating resource scemaus. Replacement for `kubeval`. |
 | [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md) | A re-implementation of the [baseline `render-helm-chart`](https://catalog.kpt.dev/render-helm-chart/v0.2/) function, which can be used in [declarative pipelines](https://kpt.dev/book/04-using-functions/01-declarative-function-execution) through Kptfiles. :warning: note, this function is dual purpose, it can both source and render charts. The sourcing feature is deprecated - use the [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) for this instead. |
 | [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) | A function that implements sourcing of helm charts to support rendering using declarative pipelines. This function augments [render-helm-chart](docs/render-helm-chart.md). |
-| [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md) | A re-implementation and improvement of the [baseline `apply-setters`](https://catalog.kpt.dev/apply-setters/v0.2/) function, which supports merge of multiple sources of apply-setters configuration and accepts configuration through both function-config and primary resource list. Also supports reading setter values from other resources. |
-| [gatekeeper](https://github.com/krm-functions/gatekeeper) | A re-implementation of the [baseline `gatekeeper`](https://catalog.kpt.dev/gatekeeper/v0.2/) function, which suppors newer variants of the Rego language (e.g. as used in the [gatekeeper-library](https://github.com/open-policy-agent/gatekeeper-library)) and which support gatekeeper [expansions](https://open-policy-agent.github.io/gatekeeper/website/docs/expansion) |
-| [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md) | A function that can lookup container image digests for Helm charts and write-back digests into chart values. |
 
 ## Links
 
-The following are references to other KRM functions. These fnctions
+The following are references to other KRM functions. These functions
 are not associated with this `krm-functions` organization.
 
 - [kispaljr/krm-functions](https://github.com/kispaljr/krm-functions)
