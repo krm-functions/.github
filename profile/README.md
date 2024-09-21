@@ -19,6 +19,7 @@ Functions:
 | [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md) | Function for automating upgrades of Helm chart specifications in e.g. KRM `RenderHelmChart` format. Supports upgrade constraints. |
 | [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md) | Function for validating resource schemas. Replacement for `kubeval`. |
 | [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md) | A re-implementation of the [baseline `render-helm-chart`](https://catalog.kpt.dev/render-helm-chart/v0.2/) function, which can be used in [declarative pipelines](https://kpt.dev/book/04-using-functions/01-declarative-function-execution) through Kptfiles. :warning: note, this function is dual purpose, it can both source and render charts. The sourcing feature is deprecated - use the [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) for this instead. |
+| [source-packages](https://github.com/krm-functions/catalog/blob/main/docs/source-packages.md) | Declarative management of fleets of `kpt` packages, similar to [helmfile](https://github.com/helmfile/helmfile) |
 | [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) | A function that implements sourcing of helm charts to support rendering using declarative pipelines. This function augments [render-helm-chart](docs/render-helm-chart.md). |
 
 ## Links
@@ -28,3 +29,4 @@ are not associated with this `krm-functions` organization.
 
 - [kispaljr/krm-functions](https://github.com/kispaljr/krm-functions)
 - [Nephio project](https://github.com/nephio-project/nephio/tree/main/krm-functions)
+- [bluebrown/krm-filter](https://github.com/bluebrown/krm-filter)
