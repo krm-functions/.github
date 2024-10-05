@@ -42,7 +42,7 @@ See below for latest image digests and builders.
 | -------- | ------ | ------- |
 | [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md) | `ghcr.io/krm-functions/apply-setters@sha256:sha256:18c6f1b3ad30ed6599ff13388e9632945fcb2d32d26c7284235b85c3c295de78` | 1 |
 | [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md) | `ghcr.io/krm-functions/digester@sha256:sha256:f08710681314ca57a308ef8b5b0f373e2be0468c1ae83faf98e4f1b0f7f22834` | 1 |
-| [gatekeeper](https://github.com/krm-functions/gatekeeper) | `ghcr.io/krm-functions/gatekeeper@sha256:bacbf3bdf2edaf395dc5bea7244916c23f5ed3f83925a310e39929263b5ec8ec` | 2 |
+| [gatekeeper](https://github.com/krm-functions/gatekeeper) | `ghcr.io/krm-functions/gatekeeper@sha256:8c4524d8538e6d50842c3eec70c932672457189e09f2e10ee6616b9b74d867e6` | 2 |
 | [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md) | `ghcr.io/krm-functions/helm-upgrader@sha256:sha256:8a31e20c5a02eb992d67b1705aea4bb9eeefe4c93b0bf9d95677584180b04062` | 1 |
 | [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md) | `ghcr.io/krm-functions/kubeconform@sha256:sha256:aab67e8b52eebd95cb068314818bbc3b05059ff3b71d3de84a661a1df4718b73` | 1 |
 | [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md) | `ghcr.io/krm-functions/render-helm-chart@sha256:sha256:2594819377e5409a053db7a903f76ae9ac64622c7daf361bbafa1fd28cc9f9db` | 1 |
