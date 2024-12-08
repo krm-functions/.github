@@ -28,7 +28,7 @@ Function images are signed using Cosign and provenance can be verified
 as e.g.:
 
 ```
-export FUNCTION_IMAGE=ghcr.io/krm-functions/source-packages@sha256:43d9fa9a28dc12c1c0cfe9bf1b7795acca683e11bfdd82c49218ac951879d5b3
+export FUNCTION_IMAGE=ghcr.io/krm-functions/source-packages@sha256:d1e43022c9615a400f2087d206d05d14a26a6885f844cdbfebdb649688973d71
 export BUILDER=https://github.com/krm-functions/catalog/.github/workflows/build.yaml
 
 cosign verify --certificate-identity $BUILDER@refs/heads/main --certificate-oidc-issuer https://token.actions.githubusercontent.com $FUNCTION_IMAGE
@@ -40,14 +40,14 @@ See below for latest image digests and builders.
 
 | Function                                                                                          | Digest                                                                                                            | Builder |
 | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------- |
-| [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md)         | `ghcr.io/krm-functions/apply-setters@sha256:ffeae3ad7f1b7b219743841fc21c302675096e6dbb3f52f87eec8598ae667f69`     | 1       |
-| [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md)                   | `ghcr.io/krm-functions/digester@sha256:3ce03c91fabc6add9c65bb406acb1ed2090e6cb1914a945cdad8217a296ee226`          | 1       |
+| [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md)         | `ghcr.io/krm-functions/apply-setters@sha256:18ecdb4940293d1ca1b46e144371d8575bf4c699bf4ad1c54d0b75138b83ef52`     | 1       |
+| [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md)                   | `ghcr.io/krm-functions/digester@sha256:8c2cac5e8301dfc573661d7cb0f8481bac5d6d2d4d9619a5942ccfb41cc52c44`          | 1       |
 | [gatekeeper](https://github.com/krm-functions/gatekeeper)                                         | `ghcr.io/krm-functions/gatekeeper@sha256:8c4524d8538e6d50842c3eec70c932672457189e09f2e10ee6616b9b74d867e6`        | 2       |
-| [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md)         | `ghcr.io/krm-functions/helm-upgrader@sha256:c60fc1e943c0be695b969d9ce2b040cd2f74404744ce7b0057c037136ce00be7`     | 1       |
-| [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md)             | `ghcr.io/krm-functions/kubeconform@sha256:f75b8b50eb046d323cf3783e7a78a6fdacf2a6c0d5d84dadb271133774585c47`       | 1       |
-| [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md) | `ghcr.io/krm-functions/render-helm-chart@sha256:1a41df64aa0fdc61bf29721fdfba4c8e82089890d2d60980a8dd0d652d32f39a` | 1       |
-| [source-packages](https://github.com/krm-functions/catalog/blob/main/docs/source-packages.md)     | `ghcr.io/krm-functions/source-packages@sha256:43d9fa9a28dc12c1c0cfe9bf1b7795acca683e11bfdd82c49218ac951879d5b3`   | 1       |
-| [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) | `ghcr.io/krm-functions/source-helm-chart@sha256:df1fa9f705193222a8d177035bec1f9477bdd3dbf2d2202712703c6f8336b99e` | 1       |
+| [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md)         | `ghcr.io/krm-functions/helm-upgrader@sha256:1db6928926b1839c5ce89316c276dbfdfb3a55e05a1553d29b24530bddebc0d7`     | 1       |
+| [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md)             | `ghcr.io/krm-functions/kubeconform@sha256:0a7b6c7e3925415784a34afa7eee06069bf57efc3b674bb2f4c7bc25eafc931d`       | 1       |
+| [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md) | `ghcr.io/krm-functions/render-helm-chart@sha256:43658c5171c70bd53c4bd8697fd1158aa27c19a652f2d8f9b8e7657178e3d30a` | 1       |
+| [source-packages](https://github.com/krm-functions/catalog/blob/main/docs/source-packages.md)     | `ghcr.io/krm-functions/source-packages@sha256:d1e43022c9615a400f2087d206d05d14a26a6885f844cdbfebdb649688973d71`   | 1       |
+| [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md) | `ghcr.io/krm-functions/source-helm-chart@sha256:1cf52c5bddf70f10ae55f8d5225a55e2e929db6d357c485af5e1ebf816afbcc5` | 1       |
 
 Builders:
 
