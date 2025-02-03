@@ -43,13 +43,13 @@ See below for latest image digests and builders.
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------- |
 | [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md)           | `ghcr.io/krm-functions/apply-setters@sha256:a2384da18cc087156d3df6acf15d6ac354824c292927f359b21d6377c1361beb`      | 1       |
 | [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md)                     | `ghcr.io/krm-functions/digester@sha256:4b455cc75036dd125c94413ec240bece1addfdc82fe8813a9f078f6e336e985f`           | 1       |
-| [gatekeeper](https://github.com/krm-functions/gatekeeper)                                           | `ghcr.io/krm-functions/gatekeeper@`         | 2       |
+| [gatekeeper](https://github.com/krm-functions/gatekeeper)                                           | `ghcr.io/krm-functions/gatekeeper@`                                                                                | 2       |
 | [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md)           | `ghcr.io/krm-functions/helm-upgrader@sha256:f43510875a67c98348aa31cdf186873e4cd48516e5018bb04b2b9bc7fa0d89ce`      | 1       |
 | [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md)               | `ghcr.io/krm-functions/kubeconform@sha256:646911ee05c3acb254b9a1765d30b14ccbddfa837500fa55ae4a6363aa6a987d`        | 1       |
 | [package-compositor](https://github.com/krm-functions/catalog/blob/main/docs/package-compositor.md) | `ghcr.io/krm-functions/package-compositor@sha256:735eee5e99b513883048ea235315a523ec9d6c4c4200a507bdbf6ccb5483ee9c` | 1       |
 | [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md)   | `ghcr.io/krm-functions/render-helm-chart@sha256:555cd81b9e04a36ba2f246a80e4b9e7cba048c70a86dcd27f4412992e66fe1cb`  | 1       |
 | [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md)   | `ghcr.io/krm-functions/source-helm-chart@sha256:7e3b2a57a07a754c1a039ff8e9a4cb9b4ce7a10ea56ba6b99f8aad2450ee7cd0`  | 1       |
-| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@`           | 3       |
+| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@sha256:36e89f7dcbcf0453ca0a11f6c6f83b2f7753027d81c11b784a970455ecb78850`                                                                     | 3       |
 
 Builders:
 
