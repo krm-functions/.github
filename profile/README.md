@@ -49,7 +49,7 @@ See below for latest image digests and builders.
 | [package-compositor](https://github.com/krm-functions/catalog/blob/main/docs/package-compositor.md) | `ghcr.io/krm-functions/package-compositor@sha256:735eee5e99b513883048ea235315a523ec9d6c4c4200a507bdbf6ccb5483ee9c` | 1       |
 | [render-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/render-helm-chart.md)   | `ghcr.io/krm-functions/render-helm-chart@sha256:555cd81b9e04a36ba2f246a80e4b9e7cba048c70a86dcd27f4412992e66fe1cb`  | 1       |
 | [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md)   | `ghcr.io/krm-functions/source-helm-chart@sha256:7e3b2a57a07a754c1a039ff8e9a4cb9b4ce7a10ea56ba6b99f8aad2450ee7cd0`  | 1       |
-| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@sha256:36e89f7dcbcf0453ca0a11f6c6f83b2f7753027d81c11b784a970455ecb78850`                                                                     | 3       |
+| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@sha256:2561824f4766eb35d2f31eb300c4dae0c6e0c1156bd7b37822d85850d984c2f7`                                                                     | 3       |
 
 Builders:
 
