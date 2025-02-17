@@ -54,7 +54,7 @@ See below for latest image digests and builders.
 | [set-annotations](https://github.com/krm-functions/catalog/blob/main/docs/set-annotations.md)       | `ghcr.io/krm-functions/set-annotations@sha256:5cb3052f79fdb537f2fb60ff95a86602dea8b55f1e358c01279503c694a561dd`    | 1       |
 | [set-labels](https://github.com/krm-functions/catalog/blob/main/docs/set-labels.md)                 | `ghcr.io/krm-functions/set-labels@sha256:07f852ce40db665a4ce91b60dbac626b11298e8eae11dea0630ace0d07409f23`         | 1       |
 | [source-helm-chart](https://github.com/krm-functions/catalog/blob/main/docs/source-helm-chart.md)   | `ghcr.io/krm-functions/source-helm-chart@sha256:30284789798a75a9e92bcc59519938c9a4e0dbc84ccaa4e43256f6ace8fc1672`  | 1       |
-| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@sha256:2561824f4766eb35d2f31eb300c4dae0c6e0c1156bd7b37822d85850d984c2f7`           | 3       |
+| [starlark](https://github.com/krm-functions/starlark)                                               | `ghcr.io/krm-functions/starlark@sha256:c90afc8fef427f768afdaaced5927f350fb60d866efb29caf42514fa11b89315`           | 3       |
 
 Builders:
 
