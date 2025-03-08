@@ -15,6 +15,7 @@ Functions:
 | --- | --- |
 | [apply-setters](https://github.com/krm-functions/catalog/blob/main/docs/apply-setters.md) | Update resource field values through setters |
 | [digester](https://github.com/krm-functions/catalog/blob/main/docs/digester.md) | Lookup container image digests and write back into e.g. RenderHelmChart values |
+| [gatekeeper-set-enforcement-action](https://github.com/krm-functions/catalog/blob/main/docs/gatekeeper-set-enforcement-action.md) | Set enforcement action on GateKeeper constraint resources |
 | [gatekeeper](https://github.com/krm-functions/gatekeeper/blob/main/README.md) | Verify Gatekeeper policies against resources |
 | [helm-upgrader](https://github.com/krm-functions/catalog/blob/main/docs/helm-upgrader.md) | Lookup Helm chart upgrades and upgrade according to upgrade constraints |
 | [kubeconform](https://github.com/krm-functions/catalog/blob/main/docs/kubeconform.md) | Validate resource schemas |

@@ -7,8 +7,8 @@ rm -f tmp.md
 
 for image in $(jq -rc '.functions[].image' catalog.json); do
     imgShort=${image/'ghcr.io/krm-functions/'/}
-    descr=$(jq -r --arg image "$image" '.functions[] | select(.image | contains($image)) | .description' catalog.json)
-    doc=$(jq -r --arg image "$image" '.functions[] | select(.image | contains($image)) | .documentation' catalog.json)
+    descr=$(jq -r --arg image "$image" '.functions[] | select(.image==$image) | .description' catalog.json)
+    doc=$(jq -r --arg image "$image" '.functions[] | select(.image==$image) | .documentation' catalog.json)
     echo "| [$imgShort]($doc) | $descr |" >> tmp.md
 done
 
